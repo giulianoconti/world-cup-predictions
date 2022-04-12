@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/world-cup-predictions/static/css/main.c782d850.css",
-    "main.js": "/world-cup-predictions/static/js/main.cfff21c2.js",
+    "main.js": "/world-cup-predictions/static/js/main.2f9e3168.js",
     "index.html": "/world-cup-predictions/index.html",
     "main.c782d850.css.map": "/world-cup-predictions/static/css/main.c782d850.css.map",
-    "main.cfff21c2.js.map": "/world-cup-predictions/static/js/main.cfff21c2.js.map"
+    "main.2f9e3168.js.map": "/world-cup-predictions/static/js/main.2f9e3168.js.map"
   },
   "entrypoints": [
     "static/css/main.c782d850.css",
-    "static/js/main.cfff21c2.js"
+    "static/js/main.2f9e3168.js"
   ]
 }
