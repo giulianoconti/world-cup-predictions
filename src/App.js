@@ -474,7 +474,7 @@ function App() {
   return (
     <div className="App">
       <h1>Catar 2022</h1>
-      <div className='all-groups' onChange={selectedGroupRanking(e.nativeEvent.path[2].cells[0].innerHTML, e.target.id)}>
+      <div className='all-groups' onChange={e => selectedGroupRanking(e.nativeEvent.path[2].cells[0].innerHTML, e.target.id)}>
         {
           groups.map(group => {
             return (
