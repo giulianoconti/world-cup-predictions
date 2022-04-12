@@ -490,28 +490,28 @@ function App() {
                       <th>4º</th>
                     </tr>
                     <tr>
-                      <td>{group[0]}</td>
+                      <td className='country'>{group[0]}</td>
                       <td><input type='checkbox' className={isChecked1stPlace[group[group.length - 2]][0] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '1'} /></td>
                       <td><input type='checkbox' className={isChecked2stPlace[group[group.length - 2]][0] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '2'} /></td>
                       <td><input type='checkbox' className={isChecked3stPlace[group[group.length - 2]][0] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '3'} /></td>
                       <td><input type='checkbox' className={isChecked4stPlace[group[group.length - 2]][0] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '4'} /></td>
                     </tr>
                     <tr>
-                      <td>{group[1]}</td>
+                      <td className='country'>{group[1]}</td>
                       <td><input type='checkbox' className={isChecked1stPlace[group[group.length - 2]][1] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '11'} /></td>
                       <td><input type='checkbox' className={isChecked2stPlace[group[group.length - 2]][1] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '22'} /></td>
                       <td><input type='checkbox' className={isChecked3stPlace[group[group.length - 2]][1] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '33'} /></td>
                       <td><input type='checkbox' className={isChecked4stPlace[group[group.length - 2]][1] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '44'} /></td>
                     </tr>
                     <tr>
-                      <td>{group[2]}</td>
+                      <td className='country'>{group[2]}</td>
                       <td><input type='checkbox' className={isChecked1stPlace[group[group.length - 2]][2] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '111'} /></td>
                       <td><input type='checkbox' className={isChecked2stPlace[group[group.length - 2]][2] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '222'} /></td>
                       <td><input type='checkbox' className={isChecked3stPlace[group[group.length - 2]][2] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '333'} /></td>
                       <td><input type='checkbox' className={isChecked4stPlace[group[group.length - 2]][2] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '444'} /></td>
                     </tr>
                     <tr>
-                      <td>{group[3]}</td>
+                      <td className='country'>{group[3]}</td>
                       <td><input type='checkbox' className={isChecked1stPlace[group[group.length - 2]][3] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '1111'} /></td>
                       <td><input type='checkbox' className={isChecked2stPlace[group[group.length - 2]][3] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '2222'} /></td>
                       <td><input type='checkbox' className={isChecked3stPlace[group[group.length - 2]][3] ? 'input-checked' : 'input-unchecked'} id={group[group.length - 1] + '3333'} /></td>

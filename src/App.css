@@ -34,7 +34,7 @@ h1 {
   margin: 10px;
   width: 250px;
   padding: 10px;
-  border-radius: 5%;
+  border-radius: 5%; 
 }
 .container-group-A {
   background-color: #03B3E8;
@@ -61,24 +61,28 @@ h1 {
   background-color: #54ffe8;
 }
 
+.country {
+  width: 100px;
+}
+
 .input-unchecked {
-    width: 1.3em;
-    height: 1.3em;
-    background-color: #F5EEE3;
-    border-radius: 50%;
-    vertical-align: middle;
-    border: 1px solid #c2bcb3;
-    appearance: none;
-    -webkit-appearance: none;
-    outline: none;
-    cursor: pointer;
+  appearance: none;
+  background-color: #F5EEE3;
+  border: 1px solid #c2bcb3;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 1.8em;
+  outline: none;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  width: 1.8em;
 }
 .input-unchecked:hover {
   background-color: #3dff78;
 }
 .input-checked {
-    width: 1.3em;
-    height: 1.3em;
+    width: 1.8em;
+    height: 1.8em;
     background-color: #3dff78;
     border-radius: 50%;
     vertical-align: middle;
@@ -87,12 +91,12 @@ h1 {
     -webkit-appearance: none;
     outline: none;
     cursor: pointer;
-}
-
-th {
-  margin: 0;
-  padding: 0;
-}
+  }
+  
+  th {
+    margin: 0;
+    padding: 0;
+  }
 
 .container-rankings {
   background-color: #77b2f5;
